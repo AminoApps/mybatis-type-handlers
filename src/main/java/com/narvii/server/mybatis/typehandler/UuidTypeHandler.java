@@ -1,4 +1,4 @@
-package com.narvii.server.mybatics.typehandler;
+package com.narvii.server.mybatis.typehandler;
 
 import org.apache.ibatis.type.BaseTypeHandler;
 import org.apache.ibatis.type.JdbcType;
