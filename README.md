@@ -4,13 +4,13 @@
 
 For properties file, add this line to `application.properties`
 ```properties
-mybatis.type-handlers-package=com.narvii.server.block.dao.typeHandler
+mybatis.type-handlers-package=com.narvii.server.mybatics.typehandler
 ```
 
 For yaml file, add this line to `application.yaml`
 ```yaml
 mybatis:
-  type-handlers-package: com.narvii.server.block.dao.typeHandler
+  type-handlers-package: com.narvii.server.mybatics.typehandler
 ```
 
 To use it in your Maven build add:
