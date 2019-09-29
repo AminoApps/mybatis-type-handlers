@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.AminoApps</groupId>
+    <groupId>com.narvii</groupId>
     <artifactId>mybatis-type-handlers</artifactId>
     <version>1.0.4</version>
     <packaging>jar</packaging>
@@ -60,4 +60,11 @@
             </plugin>
         </plugins>
     </build>
+    <distributionManagement>
+    <repository>
+        <id>github</id>
+        <name>GitHub AminoApps Apache Maven Packages</name>
+        <url>https://maven.pkg.github.com/AminoApps/mybatis-type-handlers</url>
+    </repository>
+</distributionManagement>
 </project>
